@@ -16,6 +16,8 @@
 		C7F422AC243DC71300E94B09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F422AB243DC71300E94B09 /* main.m */; };
 		C7F422B6243DC71300E94B09 /* TestCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F422B5243DC71300E94B09 /* TestCategoryTests.m */; };
 		C7F422C1243DC71300E94B09 /* TestCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F422C0243DC71300E94B09 /* TestCategoryUITests.m */; };
+		C7F422D0243DC72800E94B09 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F422CF243DC72800E94B09 /* Person.m */; };
+		C7F422D3243DC74E00E94B09 /* Person+A.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F422D2243DC74E00E94B09 /* Person+A.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		C7F422BC243DC71300E94B09 /* TestCategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F422C0243DC71300E94B09 /* TestCategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCategoryUITests.m; sourceTree = "<group>"; };
 		C7F422C2243DC71300E94B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7F422CE243DC72800E94B09 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C7F422CF243DC72800E94B09 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		C7F422D1243DC74E00E94B09 /* Person+A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+A.h"; sourceTree = "<group>"; };
+		C7F422D2243DC74E00E94B09 /* Person+A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+A.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				C7F4229D243DC71200E94B09 /* SceneDelegate.m */,
 				C7F4229F243DC71200E94B09 /* ViewController.h */,
 				C7F422A0243DC71200E94B09 /* ViewController.m */,
+				C7F422CE243DC72800E94B09 /* Person.h */,
+				C7F422CF243DC72800E94B09 /* Person.m */,
+				C7F422D1243DC74E00E94B09 /* Person+A.h */,
+				C7F422D2243DC74E00E94B09 /* Person+A.m */,
 				C7F422A2243DC71200E94B09 /* Main.storyboard */,
 				C7F422A5243DC71300E94B09 /* Assets.xcassets */,
 				C7F422A7243DC71300E94B09 /* LaunchScreen.storyboard */,
@@ -269,6 +279,8 @@
 			files = (
 				C7F422A1243DC71200E94B09 /* ViewController.m in Sources */,
 				C7F4229B243DC71200E94B09 /* AppDelegate.m in Sources */,
+				C7F422D3243DC74E00E94B09 /* Person+A.m in Sources */,
+				C7F422D0243DC72800E94B09 /* Person.m in Sources */,
 				C7F422AC243DC71300E94B09 /* main.m in Sources */,
 				C7F4229E243DC71200E94B09 /* SceneDelegate.m in Sources */,
 			);
